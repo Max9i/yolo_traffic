@@ -1,0 +1,40 @@
+{
+  "version": "3.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "stop sign",
+      "score": 0.9421184062957764,
+      "points": [
+        [
+          207.0,
+          240.0
+        ],
+        [
+          777.0,
+          240.0
+        ],
+        [
+          777.0,
+          829.0
+        ],
+        [
+          207.0,
+          829.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": null,
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "057_2_0167.jpg",
+  "imageData": null,
+  "imageHeight": 1003,
+  "imageWidth": 1300,
+  "description": ""
+}

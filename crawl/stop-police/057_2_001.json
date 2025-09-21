@@ -1,0 +1,68 @@
+{
+  "version": "3.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "stop-police",
+      "score": null,
+      "points": [
+        [
+          19.923076923076927,
+          15.230769230769225
+        ],
+        [
+          78.04273504273505,
+          15.230769230769225
+        ],
+        [
+          78.04273504273505,
+          71.21367521367522
+        ],
+        [
+          19.923076923076927,
+          71.21367521367522
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "stop-police",
+      "score": null,
+      "points": [
+        [
+          134.88034188034192,
+          86.17094017094017
+        ],
+        [
+          198.55555555555554,
+          86.17094017094017
+        ],
+        [
+          198.55555555555554,
+          126.76923076923077
+        ],
+        [
+          134.88034188034192,
+          126.76923076923077
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "057_2_001.jpg",
+  "imageData": null,
+  "imageHeight": 192,
+  "imageWidth": 236
+}

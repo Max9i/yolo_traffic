@@ -1,0 +1,39 @@
+{
+  "version": "3.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "keep left",
+      "score": null,
+      "points": [
+        [
+          42.109375,
+          65.7421875
+        ],
+        [
+          169.453125,
+          65.7421875
+        ],
+        [
+          169.453125,
+          186.8359375
+        ],
+        [
+          42.109375,
+          186.8359375
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "025_2_0276.jpg",
+  "imageData": null,
+  "imageHeight": 360,
+  "imageWidth": 360
+}

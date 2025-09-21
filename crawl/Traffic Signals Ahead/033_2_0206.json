@@ -1,0 +1,39 @@
+{
+  "version": "3.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "traffic sign",
+      "score": null,
+      "points": [
+        [
+          93.75,
+          72.5
+        ],
+        [
+          983.75,
+          72.5
+        ],
+        [
+          983.75,
+          968.75
+        ],
+        [
+          93.75,
+          968.75
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "033_2_0206.jpg",
+  "imageData": null,
+  "imageHeight": 1080,
+  "imageWidth": 1080
+}

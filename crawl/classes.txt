@@ -1,0 +1,5 @@
+stop sign
+warning
+keep left
+traffic sign
+stop-police

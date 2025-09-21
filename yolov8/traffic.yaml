@@ -1,0 +1,65 @@
+train: ./datasets/traffic/images/train
+val: ./datasets/traffic/images/val
+
+# Classes
+names:
+  0: 5kilometer
+  1: 15kilometer
+  2: 30kilometer
+  3: 40kilometer
+  4: 50kilometer
+  5: 60kilometer
+  6: 70kilometer
+  7: 90kilometer
+  8: No Left Turn or Straight Ahead
+  9: No Right Turn or Straight Ahead
+  10: No Straight Ahead
+  11: No Left Turn
+  12: No Left or Right Turn
+  13: No Right Turn
+  14: No Overtaking
+  15: No U-turn
+  16: No Entry for Motor Vehicles
+  17: No Horn
+  18: End Speed Limit 40
+  19: End Speed Limit 50
+  20: Turn Right or Go Straight Ahead
+  21: Ahead Only
+  22: Left Turn Only
+  23: Left or Right Turn Only
+  24: Right Turn Only
+  25: Keep Left
+  26: Keep Right
+  27: Roundabout
+  28: Motor Vehicles Only
+  29: Sound Horn
+  30: Bicycles Only
+  31: U-turn Only
+  32: Divided Road Ahead
+  33: Traffic Signals Ahead
+  34: General Warning
+  35: Pedestrian Crossing Ahead
+  36: Cyclists Ahead
+  37: Children Crossing Ahead
+  38: Right Curve Ahead
+  39: Left Curve Ahead
+  40: Steep Descent
+  41: Steep Ascent
+  42: SLOW
+  43: Side Road Junction Ahead
+  44: Side Road Junction (left) Ahead
+  45: Built-up Area Warning
+  46: Winding Road Ahead
+  47: train ahead
+  48: Road Works Ahead
+  49: Continuous sharp turn sign
+  50: Railway level crossing
+  51: Rear End Collision
+  52: STOP
+  53: No Entry for Vehicles
+  54: No Stopping
+  55: No Entry
+  56: Give Way
+  57: Stop - Police
+
+

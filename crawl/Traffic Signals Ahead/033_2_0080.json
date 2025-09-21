@@ -1,0 +1,39 @@
+{
+  "version": "3.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "traffic sign",
+      "score": null,
+      "points": [
+        [
+          19.424460431654722,
+          33.74100719424463
+        ],
+        [
+          599.0,
+          33.74100719424463
+        ],
+        [
+          599.0,
+          549
+        ],
+        [
+          19.424460431654722,
+          549
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "033_2_0080.jpg",
+  "imageData": null,
+  "imageHeight": 620,
+  "imageWidth": 600
+}

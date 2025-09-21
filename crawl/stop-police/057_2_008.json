@@ -1,0 +1,39 @@
+{
+  "version": "3.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "stop-police",
+      "score": null,
+      "points": [
+        [
+          0.6372549019607874,
+          0.6862745098039242
+        ],
+        [
+          139.0,
+          0.6862745098039242
+        ],
+        [
+          139.0,
+          143
+        ],
+        [
+          0.6372549019607874,
+          143
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "057_2_008.jpg",
+  "imageData": null,
+  "imageHeight": 220,
+  "imageWidth": 140
+}
