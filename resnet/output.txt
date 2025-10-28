@@ -1,0 +1,201 @@
+epoch: 1/100
+当前学习率: 0.000100
+train loss: 3.40104
+test loss: 3.55096
+已保存模型 (Epoch 1)
+epoch: 2/100
+当前学习率: 0.000100
+train loss: 2.77887
+test loss: 3.14914
+已保存模型 (Epoch 2)
+epoch: 3/100
+当前学习率: 0.000100
+train loss: 2.36102
+test loss: 2.70288
+已保存模型 (Epoch 3)
+epoch: 4/100
+当前学习率: 0.000100
+train loss: 1.94401
+test loss: 2.43751
+已保存模型 (Epoch 4)
+epoch: 5/100
+当前学习率: 0.000100
+train loss: 1.60678
+test loss: 2.49246
+epoch: 6/100
+当前学习率: 0.000099
+train loss: 1.33995
+test loss: 2.60530
+epoch: 7/100
+当前学习率: 0.000099
+train loss: 1.11906
+test loss: 2.07296
+已保存模型 (Epoch 7)
+epoch: 8/100
+当前学习率: 0.000099
+train loss: 0.93252
+test loss: 1.67700
+已保存模型 (Epoch 8)
+epoch: 9/100
+当前学习率: 0.000098
+train loss: 0.77976
+test loss: 1.55289
+已保存模型 (Epoch 9)
+epoch: 10/100
+当前学习率: 0.000098
+train loss: 0.62543
+test loss: 1.49299
+已保存模型 (Epoch 10)
+epoch: 11/100
+当前学习率: 0.000098
+train loss: 0.54161
+test loss: 1.17674
+已保存模型 (Epoch 11)
+epoch: 12/100
+当前学习率: 0.000097
+train loss: 0.44220
+test loss: 1.35473
+epoch: 13/100
+当前学习率: 0.000096
+train loss: 0.36352
+test loss: 1.05243
+已保存模型 (Epoch 13)
+epoch: 14/100
+当前学习率: 0.000096
+train loss: 0.38583
+test loss: 1.54575
+epoch: 15/100
+当前学习率: 0.000095
+train loss: 0.28322
+test loss: 0.78957
+已保存模型 (Epoch 15)
+epoch: 16/100
+当前学习率: 0.000095
+train loss: 0.28930
+test loss: 0.85353
+epoch: 17/100
+当前学习率: 0.000094
+train loss: 0.24231
+test loss: 0.90882
+epoch: 18/100
+当前学习率: 0.000093
+train loss: 0.20367
+test loss: 1.07243
+epoch: 19/100
+当前学习率: 0.000092
+train loss: 0.23024
+test loss: 0.89746
+epoch: 20/100
+当前学习率: 0.000091
+train loss: 0.20099
+test loss: 0.84257
+epoch: 21/100
+当前学习率: 0.000090
+train loss: 0.17426
+test loss: 0.78896
+已保存模型 (Epoch 21)
+epoch: 22/100
+当前学习率: 0.000090
+train loss: 0.15929
+test loss: 0.77537
+已保存模型 (Epoch 22)
+epoch: 23/100
+当前学习率: 0.000089
+train loss: 0.15242
+test loss: 0.69184
+已保存模型 (Epoch 23)
+epoch: 24/100
+当前学习率: 0.000088
+train loss: 0.14813
+test loss: 0.80735
+epoch: 25/100
+当前学习率: 0.000086
+train loss: 0.16197
+test loss: 0.74722
+epoch: 26/100
+当前学习率: 0.000085
+train loss: 0.11289
+test loss: 0.65943
+已保存模型 (Epoch 26)
+epoch: 27/100
+当前学习率: 0.000084
+train loss: 0.14893
+test loss: 0.67874
+epoch: 28/100
+当前学习率: 0.000083
+train loss: 0.14097
+test loss: 0.77914
+epoch: 29/100
+当前学习率: 0.000082
+train loss: 0.09099
+test loss: 0.56160
+已保存模型 (Epoch 29)
+epoch: 30/100
+当前学习率: 0.000081
+train loss: 0.10414
+test loss: 0.92528
+epoch: 31/100
+当前学习率: 0.000079
+train loss: 0.10385
+test loss: 0.66199
+epoch: 32/100
+当前学习率: 0.000078
+train loss: 0.12487
+test loss: 0.69458
+epoch: 33/100
+当前学习率: 0.000077
+train loss: 0.10441
+test loss: 0.65256
+epoch: 34/100
+当前学习率: 0.000075
+train loss: 0.12744
+test loss: 0.66808
+epoch: 35/100
+当前学习率: 0.000074
+train loss: 0.09578
+test loss: 0.60645
+epoch: 36/100
+当前学习率: 0.000073
+train loss: 0.07343
+test loss: 0.60799
+epoch: 37/100
+当前学习率: 0.000071
+train loss: 0.08725
+test loss: 0.60001
+epoch: 38/100
+当前学习率: 0.000070
+train loss: 0.07624
+test loss: 0.55924
+已保存模型 (Epoch 38)
+epoch: 39/100
+当前学习率: 0.000068
+train loss: 0.09596
+test loss: 0.68407
+epoch: 40/100
+当前学习率: 0.000067
+train loss: 0.08008
+test loss: 0.58828
+epoch: 41/100
+当前学习率: 0.000065
+train loss: 0.06274
+test loss: 0.53803
+已保存模型 (Epoch 41)
+epoch: 42/100
+当前学习率: 0.000064
+train loss: 0.07721
+test loss: 0.73765
+epoch: 43/100
+当前学习率: 0.000062
+train loss: 0.08334
+test loss: 0.60404
+epoch: 44/100
+当前学习率: 0.000061
+train loss: 0.08021
+test loss: 0.68761
+epoch: 45/100
+当前学习率: 0.000059
+train loss: 0.06217
+test loss: 0.51234
+已保存模型 (Epoch 45)
+epoch: 46/100
+当前学习率: 0.000058
