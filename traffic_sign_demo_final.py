@@ -174,15 +174,186 @@ def compare_models(image, yolo_conf=0.685):
 def create_demo():
     """Create Gradio interface"""
 
-    # Custom CSS
+    # Custom CSS for professional appearance
     custom_css = """
+    /* Hide Gradio footer */
     footer {display: none !important;}
     .gradio-container {min-height: 0px !important;}
+
+    /* Better fonts and spacing */
+    * {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    }
+
+    /* Header styling */
+    h1 {
+        color: #2c3e50 !important;
+        font-weight: 600 !important;
+        margin-bottom: 10px !important;
+        font-size: 2.2em !important;
+    }
+
+    h3 {
+        color: #34495e !important;
+        font-weight: 500 !important;
+        font-size: 1.3em !important;
+    }
+
+    /* Tab styling */
+    .tab-nav button {
+        font-size: 16px !important;
+        font-weight: 500 !important;
+        padding: 12px 24px !important;
+        border-radius: 8px 8px 0 0 !important;
+    }
+
+    .tab-nav button.selected {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+        color: white !important;
+    }
+
+    /* Button styling */
+    .primary {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+        border: none !important;
+        font-weight: 600 !important;
+        padding: 12px 24px !important;
+        font-size: 15px !important;
+        border-radius: 8px !important;
+        transition: all 0.3s ease !important;
+    }
+
+    .primary:hover {
+        transform: translateY(-2px) !important;
+        box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4) !important;
+    }
+
+    /* Input/Output boxes */
+    .gr-box {
+        border-radius: 8px !important;
+        border: 2px solid #e0e0e0 !important;
+    }
+
+    /* Textbox styling */
+    textarea {
+        font-size: 14px !important;
+        line-height: 1.6 !important;
+        font-family: 'Consolas', 'Monaco', monospace !important;
+    }
+
+    /* Image containers */
+    .gr-image {
+        border-radius: 8px !important;
+        overflow: hidden !important;
+        border: 2px solid #e0e0e0 !important;
+    }
+
+    /* Markdown content */
+    .markdown-body {
+        font-size: 15px !important;
+        line-height: 1.7 !important;
+        color: #2c3e50 !important;
+    }
+
+    .markdown-body strong {
+        color: #667eea !important;
+        font-weight: 600 !important;
+    }
+
+    .markdown-body p {
+        margin-bottom: 12px !important;
+    }
+
+    .markdown-body ul, .markdown-body ol {
+        margin-left: 20px !important;
+        margin-bottom: 12px !important;
+    }
+
+    .markdown-body li {
+        margin-bottom: 6px !important;
+    }
+
+    /* Table styling */
+    table {
+        border-collapse: collapse !important;
+        width: 100% !important;
+        margin: 20px 0 !important;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+        border-radius: 8px !important;
+        overflow: hidden !important;
+    }
+
+    th {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+        color: white !important;
+        padding: 12px !important;
+        font-weight: 600 !important;
+        text-align: left !important;
+    }
+
+    td {
+        padding: 10px 12px !important;
+        border-bottom: 1px solid #e0e0e0 !important;
+    }
+
+    tr:hover {
+        background-color: #f8f9fa !important;
+    }
+
+    /* Slider styling */
+    input[type="range"] {
+        accent-color: #667eea !important;
+    }
+
+    .gr-slider {
+        margin: 10px 0 !important;
+    }
+
+    /* Labels */
+    label {
+        font-weight: 500 !important;
+        color: #34495e !important;
+        font-size: 14px !important;
+        margin-bottom: 8px !important;
+    }
+
+    /* Info boxes */
+    .gr-box.gr-info {
+        background: #e3f2fd !important;
+        border-left: 4px solid #2196f3 !important;
+        padding: 12px !important;
+    }
+
+    /* Number display */
+    .gr-number {
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        color: #667eea !important;
+    }
+
+    /* Column spacing */
+    .gr-column {
+        padding: 10px !important;
+    }
+
+    /* Row spacing */
+    .gr-row {
+        margin-bottom: 15px !important;
+    }
     """
+
+    # Use modern theme with custom styling
+    theme = gr.themes.Soft(
+        primary_hue="indigo",
+        secondary_hue="purple",
+        neutral_hue="slate",
+        font=["Segoe UI", "sans-serif"],
+        font_mono=["Consolas", "Monaco", "monospace"]
+    )
 
     with gr.Blocks(
         title="Traffic Sign Recognition Demo",
-        theme=gr.themes.Soft(),
+        theme=theme,
         css=custom_css
     ) as demo:
 
@@ -350,8 +521,8 @@ if __name__ == "__main__":
     demo.launch(
         share=False,
         server_name="127.0.0.1",
-        server_port=7860,
+        server_port=7861,
         show_error=True,
-        inbrowser=True,
+        inbrowser=False,
         show_api=False
     )
