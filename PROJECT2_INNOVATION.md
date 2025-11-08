@@ -138,7 +138,7 @@ DEMO_README.md              # User documentation
 
 | Feature | CLI | Web Demo |
 |---------|-----|----------|
-| User Friendliness | ❌ | ✅ |
+| User Friendliness | No | Yes |
 | Installation Complexity | Medium | Low |
 | Visual Feedback | Limited | Rich |
 | Parameter Adjustment | Requires re-run | Real-time |
@@ -173,32 +173,27 @@ DEMO_README.md              # User documentation
 
 ### Potential Improvements
 
-1. **Video Support**
-   - Upload video files
-   - Real-time video stream processing
-   - Frame-by-frame analysis
-
-2. **Model Comparison**
+1. **Model Comparison**
    - Load multiple models
    - Side-by-side comparison
    - Performance benchmarking
 
-3. **Export Functionality**
+2. **Export Functionality**
    - Download annotated images
    - Export detection data as JSON/CSV
    - Generate PDF reports
 
-4. **Advanced Analytics**
+3. **Advanced Analytics**
    - Confusion matrix visualization
    - Per-class performance charts
    - Detection confidence histograms
 
-5. **Mobile Optimization**
+4. **Mobile Optimization**
    - Responsive design for mobile devices
    - Native mobile app integration
    - Progressive Web App (PWA)
 
-6. **Cloud Deployment**
+5. **Cloud Deployment**
    - Host on cloud platform (AWS, Azure, GCP)
    - Scalable inference
    - User authentication
